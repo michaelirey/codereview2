@@ -13,17 +13,23 @@
   background-size: cover;
   background-position: 0% 45%;
   background-repeat: no-repeat;
-  color: purple;
+  color:green;
   text-align: center;
   text-shadow: lavender 0.3em 0.3em 0.3em;
   font-size: 60px;
 
 }
 
-#Alaska-showing {
+
+
+body {
+  background-color: #FFFFCC;
+}
+
+.destinations {
   display: none;
 }
 
-body {
-  background-color: #fbedd3;
+.Antarctica-hidden {
+  display: none;
 }
