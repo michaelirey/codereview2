@@ -8,91 +8,74 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Vacation Planner</title>
   </head>
+
+
   <body>
     <div class="jumbotron">
       <h1><strong>JEFFS VACATION PLANNER</strong></h1>
     </div>
+
       <div class = "container">
-          <h3>Welcome to Jeff's vacation planner! Your one stop resource for planning your perfect destination.</h3>
+
+        <h3>Welcome to Jeff's vacation planner! Your one stop resource for planning your perfect destination.</h3>
+
           <p>Are you tired of your <em>CURRENT ROUTINE?</em> Does work have you <em>BURNED OUT?</em> Do feel like you <em>HAVENT HAD A BREAK IN A LONG, LONG TIME?</em>
           <p>Well then we have <em>GREAT NEWS!</em> Jeff's Vacation Planner makes choosing the right vacation destination fast and easy! Just answer the following five questions and receive your perfect vacation destination!</p>
-          <h4>Answer the following questions and receive your perfect destination!</h4>
-        <div id="questions">
-          <form>
+
+          <h4>Answer the following questions, click the "My Destination" button at the bottom of the page, and receive your perfect destination!</h4>
+
+          <form id="questions">
+
             <div class="form-group">
-              <label for="hot">Do you like hot weather?</label>
-              <select form="hotForm" id="hot">
-                <option value="hotYes">Yes</option>
-                <option value="hotNo">No</option>
-              </select>
+              <label for="hot">Do you like hot weather yes or no?</label>
+              <input id="hot" type="text">
             </div>
+
+
             <div class="form-group">
-              <label for="cold">Do you like cold weather?</label>
-              <select form="coldForm" id="cold">
-                <option value="coldYes">Yes</option>
-                <option value="coldNo">No</option>
-              </select>
+              <label for="cold">Do you like cold weather yes or no?</label>
+              <input id="cold" type="text">
             </div>
+
             <div class="form-group">
-              <label for="food">Do you enjoy interesting food?</label>
-              <select form="foodForm" id="food">
-                <option value="foodYes">Yes</option>
-                <option value+"foodNo">No</option>
-              </select>
+              <label for="food">Do you enjoy interesting food yest or no?</label>
+              <input id="food" type="text">
             </div>
+
             <div class="form-group">
               <label for="swimming">Do you enjoy swimming in the water?</label>
-              <select form="swimmingForm" id="swimming">
-                <option form="swimmingYes">Yes</label>
-                <option form="swimmingNo">No</label>
-              </select>
+              <input id="swimming" type="text">
             </div>
+
             <div class="form-group">
               <label for="history">Do you enjoy History?</label>
-              <select form="historyForm" id="history">
-                <option form="historyYes">Yes</label>
-                <option form="historyNo">No</label>
-              </select>
+              <input id="history" type="text">
             </div>
-          </div>
+
+            <button type="submit" class="button">Show me my destination!</button>
+          </form>  
+
 
         </div>
 
 
-        <div class="Antarctica-hidden">
-            <p>See antarctica</p>
-        </div>
-
-        <div class=Antarctica-showing"">
-            <p>This is Antarctica! Make it dissappear</p>
-        </div>
-
-            <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
-
-
-
-            <button type="submit" class="btn-primary">Show me my destination!</button>
-
-            <div class="destinations">
               <div id="Rome">
               <p>You should visit ROME!</P>
               <img src="img/rome.jpeg" alt="an image of Ancient Rome">
               </div>
+
               <div id="Hawaii">
               <h1>You should visit HAWAII!</h1>
               <img src="img/hawaii.jpeg" alt="an image of Hawaii">
               </div>
+
               <div id="Antarctica">
               <h1>You should visit Antarctica!</h1>
               <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
               </div>
-            </div>
-
-
-
-      </div>
 
 
     </script>
   </body>
+
 </html>
