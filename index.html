@@ -2,40 +2,95 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Vacation Planner</title>
   </head>
   <body>
-    <div class="container">
     <div class="jumbotron">
-    <h1><strong>JEFFS VACATION PLANNER</strong></h1>
-   </div>
-
-    <div class="p">Are you bored with you curent surrounding? Have you ever wanted to go on the vacation of a liftime but have no idea where to start? Well don't worry..Jeff's vacation suggester has taken the guesswork out of planning your perfect vacation.  Just follow the easy step by step instructions below</p>
-    <div id="Alaska-hidden">
-      <p>Jeff's Vacation Planer is simple to use.  Just answer the following five questions and we will give you your dream destination!</p>
+      <h1><strong>JEFFS VACATION PLANNER</strong></h1>
     </div>
+      <div class = "container">
+          <h3>Welcome to Jeff's vacation planner! Your one stop resource for planning your perfect destination.</h3>
+          <p>Are you tired of your <em>CURRENT ROUTINE?</em> Does work have you <em>BURNED OUT?</em> Do feel like you <em>HAVENT HAD A BREAK IN A LONG, LONG TIME?</em>
+          <p>Well then we have <em>GREAT NEWS!</em> Jeff's Vacation Planner makes choosing the right vacation destination fast and easy! Just answer the following five questions and receive your perfect vacation destination!</p>
+          <h4>Answer the following questions and receive your perfect destination!</h4>
+        <div id="questions">
+          <form>
+            <div class="form-group">
+              <label for="hot">Do you like hot weather?</label>
+              <select form="hotForm" id="hot">
+                <option value="hotYes">Yes</option>
+                <option value="hotNo">No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cold">Do you like cold weather?</label>
+              <select form="coldForm" id="cold">
+                <option value="coldYes">Yes</option>
+                <option value="coldNo">No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="food">Do you enjoy interesting food?</label>
+              <select form="foodForm" id="food">
+                <option value="foodYes">Yes</option>
+                <option value+"foodNo">No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="swimming">Do you enjoy swimming in the water?</label>
+              <select form="swimmingForm" id="swimming">
+                <option form="swimmingYes">Yes</label>
+                <option form="swimmingNo">No</label>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="history">Do you enjoy History?</label>
+              <select form="historyForm" id="history">
+                <option form="historyYes">Yes</label>
+                <option form="historyNo">No</label>
+              </select>
+            </div>
+          </div>
 
-    <div id="Alaska-showing">
-      <p>Make alaska dissappear</p>
-      <img src="img/alaska.jpg">
-    </div>
+        </div>
 
-    <p>Do enjoy hot weather?</p>
-    <p>Do you enjoy swimming in the water?</p>
-    <p>Do prefer cold weather?</p>
-    <p>Do you enjoy historical architecture?</p>
-    <p>Do you enjoy eating interesting food?</p>
 
-    <p><em>Thank you for visiting my website and please come back for all of your vaction planning needs!</em>
+        <div class="Antarctica-hidden">
+            <p>See antarctica</p>
+        </div>
 
-    <p>To contact us with feedback or questions please email deanjef2@hotamil.com
-    </p>
+        <div class=Antarctica-showing"">
+            <p>This is Antarctica! Make it dissappear</p>
+        </div>
 
-    </div>
-    </div>
+            <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
+
+
+
+            <button type="submit" class="btn-primary">Show me my destination!</button>
+
+            <div class="destinations">
+              <div id="Rome">
+              <p>You should visit ROME!</P>
+              <img src="img/rome.jpeg" alt="an image of Ancient Rome">
+              </div>
+              <div id="Hawaii">
+              <h1>You should visit HAWAII!</h1>
+              <img src="img/hawaii.jpeg" alt="an image of Hawaii">
+              </div>
+              <div id="Antarctica">
+              <h1>You should visit Antarctica!</h1>
+              <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
+              </div>
+            </div>
+
+
+
+      </div>
 
 
     </script>
