@@ -26,11 +26,17 @@ body {
   background-color: #FFFFCC;
 }
 
-.destinations {
+
+
+
+#Rome {
   display: none;
 }
 
+#Antarctica {
+  display: none;
+}
 
-#Rome, #Hawaii, #Antarctica {
+#Hawaii {
   display: none;
 }
