@@ -8,56 +8,62 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Vacation Planner</title>
   </head>
-
-
   <body>
     <div class="jumbotron">
       <h1><strong>JEFFS VACATION PLANNER</strong></h1>
     </div>
 
-      <div class = "container">
+    <div class = "container">
+      <h3>Welcome to Jeff's vacation planner! Your one stop resource for planning your perfect destination.</h3>
+      <p>Are you tired of your <em>CURRENT ROUTINE?</em> Does work have you <em>BURNED OUT?</em> Do feel like you <em>HAVENT HAD A BREAK IN A LONG, LONG TIME?</em>
+      <p>Well then we have <em>GREAT NEWS!</em> Jeff's Vacation Planner makes choosing the right vacation destination fast and easy! Just answer the following five questions and receive your perfect vacation destination!</p>
+      <h4>Answer the following questions, click the "My Destination" button at the bottom of the page, and receive your perfect destination!</h4>
 
-        <h3>Welcome to Jeff's vacation planner! Your one stop resource for planning your perfect destination.</h3>
-
-          <p>Are you tired of your <em>CURRENT ROUTINE?</em> Does work have you <em>BURNED OUT?</em> Do feel like you <em>HAVENT HAD A BREAK IN A LONG, LONG TIME?</em>
-          <p>Well then we have <em>GREAT NEWS!</em> Jeff's Vacation Planner makes choosing the right vacation destination fast and easy! Just answer the following five questions and receive your perfect vacation destination!</p>
-
-          <h4>Answer the following questions, click the "My Destination" button at the bottom of the page, and receive your perfect destination!</h4>
-
-          <form id="questions">
-
-            <div class="form-group">
-              <label for="hot">Do you like hot weather yes or no?</label>
-              <input id="hot" type="text">
-            </div>
+            <form id="questions">
+              <div class="form-group">
+                <label for="hot">Do you like hot weather?</label>
+                <select id="hot">
+                  <option value="hotYes">yes</option>
+                  <option value="hotNo">no</option>
+                </select>
+              </div>
 
 
-            <div class="form-group">
-              <label for="cold">Do you like cold weather yes or no?</label>
-              <input id="cold" type="text">
-            </div>
+              <div class="form-group">
+                <label for="cold">Do you like cold weather?</label>
+                <select id="cold">
+                  <option value="coldYes">yes</option>
+                  <option value="coldNo">no</option>
+                </select>
+              </div>
 
-            <div class="form-group">
-              <label for="food">Do you enjoy interesting food yest or no?</label>
-              <input id="food" type="text">
-            </div>
+              <div class="form-group">
+                <label for="animals">Do you enjoy wild animals?</label>
+                <select id="animals">
+                  <option value="animalsYes">yes</option>
+                  <option value="animalsNo">no</option>
+                </select>
+              </div>
 
-            <div class="form-group">
-              <label for="swimming">Do you enjoy swimming in the water?</label>
-              <input id="swimming" type="text">
-            </div>
+              <div class="form-group">
+                <label for="swimming">Do you enjoy swimming?</label>
+                <select id="swimming">
+                  <option value="swimmingYes">yes</option>
+                  <option value="swimmingNo">no</option>
+                </select>
+              </div>
 
-            <div class="form-group">
-              <label for="history">Do you enjoy History?</label>
-              <input id="history" type="text">
-            </div>
-
-            <button type="submit" class="button">Show me my destination!</button>
-          </form>  
-
+              <div class="form-group">
+                <label for="age">Are you younger than 40?</label>
+                <select id="age">
+                  <option value="ageYes">yes</option>
+                  <option value="ageNo">no</option>
+                </select>
+              </div>
+            <button type="submit" class="btn">My destination!</button>
+           </form>
 
         </div>
-
 
               <div id="Rome">
               <p>You should visit ROME!</P>
@@ -74,8 +80,6 @@
               <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
               </div>
 
-
-    </script>
-  </body>
-
+    </body>
+  </div>
 </html>
