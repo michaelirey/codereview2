@@ -2,7 +2,6 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
@@ -19,7 +18,7 @@
       <p>Well then we have <em>GREAT NEWS!</em> Jeff's Vacation Planner makes choosing the right vacation destination fast and easy! Just answer the following five questions and receive your perfect vacation destination!</p>
       <h4>Answer the following questions, click the "My Destination" button at the bottom of the page, and receive your perfect destination!</h4>
 
-            <form id="questions">
+            <form id="questions" action="post">
               <div class="form-group">
                 <label for="hot">Do you like hot weather?</label>
                 <select id="hot">
@@ -27,7 +26,6 @@
                   <option value="hotNo">no</option>
                 </select>
               </div>
-
 
               <div class="form-group">
                 <label for="cold">Do you like cold weather?</label>
@@ -64,22 +62,20 @@
            </form>
 
         </div>
+          <div class="destination" id="Rome">
+            <p>You should visit ROME!</P>
+            <img src="img/rome.jpeg" alt="an image of Ancient Rome">
+          </div>
 
-              <div id="Rome">
-              <p>You should visit ROME!</P>
-              <img src="img/rome.jpeg" alt="an image of Ancient Rome">
-              </div>
+          <div class="destination" id="Hawaii">
+            <h1>You should visit HAWAII!</h1>
+            <img src="img/hawaii.jpeg" alt="an image of Hawaii">
+          </div>
 
-              <div id="Hawaii">
-              <h1>You should visit HAWAII!</h1>
-              <img src="img/hawaii.jpeg" alt="an image of Hawaii">
-              </div>
-
-              <div id="Antarctica">
-              <h1>You should visit Antarctica!</h1>
-              <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
-              </div>
-
+          <div class="destination" id="Antarctica">
+            <h1>You should visit Antarctica!</h1>
+            <img src="img/Antarctica.jpeg" alt="an image of Antarctica">
+          </div>
     </body>
   </div>
 </html>
